@@ -1,0 +1,11 @@
+[workspace]
+authors = ["JonRoss7 <168586069+JonRoss7@users.noreply.github.com>"]
+channels = ["https://conda.modular.com/max-nightly", "conda-forge"]
+name = "hello-world"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+mojo = ">=0.26.3.0.dev2026032905,<0.27"
